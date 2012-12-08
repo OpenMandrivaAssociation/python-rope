@@ -16,7 +16,8 @@ BuildArch:	noarch
 %py_requires -d
 
 %description
-Rope is a Python refactoring library. You can use rope as a library in other IDEs.
+Rope is a Python refactoring library. You can use
+rope as a library in other IDEs.
 
 %prep
 %setup -q -n %{module}-%{version}
@@ -31,3 +32,11 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record
 %files -f FILE_LIST
 %defattr(-,root,root)
 %doc COPYING README.txt docs/*
+
+
+%changelog
+* Wed Nov 03 2010 Lev Givon <lev@mandriva.org> 0.9.3-1mdv2011.0
++ Revision: 592949
+- import python-rope
+
+
