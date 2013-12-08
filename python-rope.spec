@@ -9,7 +9,7 @@ Group:		Development/Python
 Url:		http://rope.sourceforge.net/
 Source0:	%{module}-%{version}.tar.gz
 BuildArch:	noarch
-%py_requires -d
+BuildRequires:  python-devel
 
 %description
 Rope is a Python refactoring library. You can use
