@@ -1,7 +1,7 @@
 %define module	rope
 %define name	python-%{module}
 %define version 0.9.3
-%define release %mkrel 1
+%define release 2
 
 Summary:	Python refactoring library
 Name:		%{name}
