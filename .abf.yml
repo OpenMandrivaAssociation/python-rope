@@ -1,2 +1,4 @@
+removed_sources:
+  rope-0.9.3.tar.gz: 47bc357e5765c387e1522d4bbe77493ce2964ebe
 sources:
-  "rope-0.9.3.tar.gz": 47bc357e5765c387e1522d4bbe77493ce2964ebe
+  rope-0.10.2.tar.gz: 1430ccb965ece93c44f204f90bf0ec6d1e2bf8b5
