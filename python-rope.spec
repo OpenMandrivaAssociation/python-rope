@@ -3,7 +3,7 @@
 Summary:	Python refactoring library
 Name:		python-%{module}
 Version:	0.10.2
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		Development/Python
 Url:		http://rope.sourceforge.net/
