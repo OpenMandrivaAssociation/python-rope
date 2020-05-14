@@ -1,7 +1,7 @@
 %define module rope
 
 Name:           python-%{module}
-Version:	0.16.0
+Version:	0.17.0
 Release:	1
 Summary:        Python refactoring library
 Source0:	https://github.com/python-rope/rope/archive/%{version}.tar.gz
