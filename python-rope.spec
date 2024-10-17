@@ -7,7 +7,7 @@ Summary:        Python refactoring library
 Source0:	https://github.com/python-rope/rope/archive/%{version}.tar.gz
 License:        GPLv2
 Group:          Development/Python
-Url:            http://rope.sourceforge.net/
+Url:            https://rope.sourceforge.net/
 BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python2)
