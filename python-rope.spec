@@ -1,8 +1,8 @@
 %define module rope
 
 Name:           python-%{module}
-Version:	0.22.0
-Release:	4
+Version:	1.14.0
+Release:	1
 Summary:        Python refactoring library
 Source0:	https://github.com/python-rope/rope/archive/%{version}.tar.gz
 License:        GPLv2
@@ -26,7 +26,7 @@ Rope is a Python refactoring library. You can use rope as a library in other
 IDEs.
 
 %prep
-%autosetup -p1 -n %{module}-%{version}
+%autosetup -p1 -n rope-1.14.0
 cp -a . %{py3dir}
 
 %build
